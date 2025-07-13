@@ -22,12 +22,12 @@ export default function ListUser() {
         allUsers();
     }, [])
 
-    return(
-        <div>
-            <h2 className="text-2xl font-bold mb-4">Listar Usuários</h2>
+    return (
+        <div className="justify-items-center">
+            <h2 className="text-2xl font-bold mb-4">Lista de Usuários</h2>
             <div className="flex flex-wrap gap-3">
                 {users.map((user) => (
-                    <CardUser key={user.id} user={user} />                    
+                    <CardUser key={user.id} user={user} />
                 ))}
             </div>
         </div>

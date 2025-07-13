@@ -9,7 +9,7 @@ export default function CardUser({ user }: CardUserProps) {
         <div className="border-amber-950 border-2 border-opacity-50 rounded-lg shadow-md p-4">
             <p>Nome: {user.name}</p>
             <p>E-mail: {user.email}</p>
-            <p>Deparamento: {user.department.name}</p>
+            <p>Departamento: {user.department.name}</p>
         </div>
     )
 }
