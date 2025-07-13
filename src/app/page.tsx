@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ListUser } from "./user/page";
+import  ListUser  from "./user/page";
 
 export default function Home() {
   return (

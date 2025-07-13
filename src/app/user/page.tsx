@@ -5,7 +5,7 @@ import User from "@/models/user";
 import { getAll } from "@/services/Service";
 import { useEffect, useState } from "react";
 
-export function ListUser() {
+export default function ListUser() {
     const [users, setUsers] = useState<User[]>([]);
 
     async function allUsers() {
