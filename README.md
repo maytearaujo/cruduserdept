@@ -24,7 +24,7 @@ Siga as instruções abaixo para configurar e executar o projeto em seu ambiente
 
 1.  **Clone o repositório:**
     ```bash
-    git clone <url-do-seu-repositorio>
+    git clone https://github.com/maytearaujo/cruduserdept.git
     cd cruduserdept
     ```
 
